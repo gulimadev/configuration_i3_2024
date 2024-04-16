@@ -249,4 +249,4 @@ bindsym Print exec --no-startup-id flameshot gui
 bindsym Ctrl+Print exec --no-startup-id flameshot full -p ~/Pictures
 
 bindsym Shift+Print exec --no-startup-id flameshot gui
-
+bindsym $mod+Shift+x exec convert /home/gulimadev/images/lockscreen.png -gravity Center -background "#000000" -extent $(xdpyinfo | grep dimensions | cut -d' ' -f7) RGB:- | i3lock --raw $(xdpyinfo | grep dimensions | cut -d' ' -f7):rgb -c "#000000" -i /dev/stdin 

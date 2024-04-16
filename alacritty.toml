@@ -49,3 +49,9 @@ size = 13
 family ="JetBrains Mono"
 style = "Regular" 
 
+
+[keyboard]
+bindings = [
+{ key = "F1", mods="None", action = "Copy" },
+ { key = "F2", mods="None", action = "Paste" },
+]

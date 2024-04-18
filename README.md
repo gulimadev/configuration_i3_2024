@@ -16,6 +16,8 @@ libva-intel-driver
 
 sudo vim /etc/X11/xorg.conf.d/20-intel.conf
 
+libva-utils
+
 
 Section "Device"
     Identifier  "Intel Graphics"
